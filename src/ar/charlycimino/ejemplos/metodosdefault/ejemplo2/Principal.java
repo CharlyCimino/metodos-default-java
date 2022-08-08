@@ -1,4 +1,4 @@
-package metodosdefault2;
+package ar.charlycimino.ejemplos.metodosdefault.ejemplo2;
 
 /**
  *
@@ -6,9 +6,11 @@ package metodosdefault2;
  * https://www.youtube.com/c/CharlyCimino Encontrá más código en mi repo de
  * GitHub: https://github.com/CharlyCimino
  */
-public interface Estudiante {
+public class Principal {
 
-    public default void realizarTarea() {
-        System.out.println("Realizo tarea porque necesito practicar para el examen");
+    public static void main(String[] args) {
+        Persona p = new Persona();
+        p.realizarTarea();
     }
+
 }

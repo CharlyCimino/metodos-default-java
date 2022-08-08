@@ -1,4 +1,4 @@
-package metodosdefault2;
+package ar.charlycimino.ejemplos.metodosdefault.ejemplo1;
 
 /**
  *
@@ -6,11 +6,6 @@ package metodosdefault2;
  * https://www.youtube.com/c/CharlyCimino Encontrá más código en mi repo de
  * GitHub: https://github.com/CharlyCimino
  */
-public class Principal {
-
-    public static void main(String[] args) {
-        Persona p = new Persona();
-        p.realizarTarea();
-    }
+public class Reserva implements Identificable {
 
 }

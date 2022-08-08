@@ -1,4 +1,4 @@
-package metodosdefault2;
+package ar.charlycimino.ejemplos.metodosdefault.ejemplo2;
 
 /**
  *
@@ -6,9 +6,9 @@ package metodosdefault2;
  * https://www.youtube.com/c/CharlyCimino Encontrá más código en mi repo de
  * GitHub: https://github.com/CharlyCimino
  */
-public interface Empleado {
+public interface Estudiante {
 
     public default void realizarTarea() {
-        System.out.println("Realizo tarea porque me pagan por ello");
+        System.out.println("Realizo tarea porque necesito practicar para el examen");
     }
 }

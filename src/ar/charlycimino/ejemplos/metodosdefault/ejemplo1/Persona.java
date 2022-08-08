@@ -1,4 +1,4 @@
-package metodosdefault;
+package ar.charlycimino.ejemplos.metodosdefault.ejemplo1;
 
 /**
  *

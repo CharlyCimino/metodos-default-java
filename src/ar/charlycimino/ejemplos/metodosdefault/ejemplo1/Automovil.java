@@ -1,4 +1,4 @@
-package metodosdefault;
+package ar.charlycimino.ejemplos.metodosdefault.ejemplo1;
 
 /**
  *
@@ -6,9 +6,6 @@ package metodosdefault;
  * https://www.youtube.com/c/CharlyCimino Encontrá más código en mi repo de
  * GitHub: https://github.com/CharlyCimino
  */
-public interface Identificable {
+public class Automovil implements Identificable {
 
-    public default void mostrarIdentificacion() {
-        System.out.println(hashCode());
-    }
 }
